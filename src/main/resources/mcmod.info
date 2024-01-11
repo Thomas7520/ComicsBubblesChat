@@ -1,0 +1,16 @@
+[
+{
+  "modid": "comicsbubbleschat",
+  "name": "Comics Bubbles Chat Mod",
+  "description": "Display above your head your text thanks to the chat, command, gui, awesome right?",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Thomas7520"],
+  "credits": "All credits for Thomas7520",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
