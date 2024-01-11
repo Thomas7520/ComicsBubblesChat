@@ -1,0 +1,32 @@
+modLoader="javafml" #mandatory
+loaderVersion="[37,)" #mandatory
+license="All rights reserved"
+
+[[mods]] #mandatory
+modId="comicsbubbleschat" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Comics Bubbles Chat" #mandatory
+description='''Comics Bubbles Chat offer you the possibility to send a message by various means (chat, custom command) depending on the server configuration. This message will appear above your head in the form of a bubble visible to other players around.''' #mandatory
+displayURL="https://discord.gg/xTqj3ZSeH4"
+credits="All credits for Thomas7520"
+authors="Thomas7520"
+
+[[dependencies.examplemod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[39,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
