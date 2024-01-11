@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory
+
+[[mods]] #mandatory
+modId="comicsbubbleschat" #mandatory
+version="${version}" #mandatory
+displayName="Comics Bubbles Chat" #mandatory
+description='''Comics Bubbles Chat offer you the possibility to send a message by various means (chat, custom command) depending on the server configuration. This message will appear above your head in the form of a bubble visible to other players around.''' #mandatory
+displayURL="https://discord.gg/xTqj3ZSeH4"
+credits="All credits for Thomas7520"
+authors="Thomas7520"
+
+[[dependencies.comicsbubbleschat]]
+modId="forge"
+mandatory=true
+versionRange="[28.1.115,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.comicsbubbleschat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.14,1.15)"
+ordering="NONE"
+side="BOTH"
