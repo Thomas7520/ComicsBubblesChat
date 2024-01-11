@@ -1,0 +1,27 @@
+{
+  "key.comicsbubbleschat.category": "Comics Bubbles Chat",
+  "key.openoptions.desc": "Menu Options",
+  "key.openguitext.desc": "Menu Texte",
+  "text.red": "Rouge",
+  "text.green": "Vert",
+  "text.blue": "Bleu",
+  "text.alpha": "Transparence",
+
+  "text.config.title": "Options Comics Bubbles Chat",
+  "text.config.outline": "Option couleur du contour",
+  "text.config.inside": "Option de couleur intérieure",
+  "text.config.text": "Option de couleur du texte",
+  "text.config.test": "Ceci est un test !",
+  "text.config.resetcolor": "Réinitialiser les couleurs",
+  "text.config.resetduration": "Réinitialiser la durée",
+  "text.config.resetstack": "Réinitialiser max bulles empilables",
+  "text.config.resetlinewidth": "Réinitialiser max longueur ligne",
+  "text.config.maxstackbubbles": "Max bulles empilables (0 = ∞)",
+  "text.config.maxlinewidth": "Longueur max d'une ligne (min = 50)",
+  "text.config.clearbubbles": "Supprimer les bulles actuelles",
+
+  "text.config.duration.suffix": "seconds",
+  "text.config.duration.prefix": "Durée des bulles",
+
+  "text.config.nolinked": "Le mod n'est pas relié au serveur, les bulles n'apparaîtront pas !"
+}
